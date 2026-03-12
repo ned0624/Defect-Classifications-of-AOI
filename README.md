@@ -1,2 +1,2 @@
 # Defect-Classifications-of-AOI
-AIdea Artificial Intelligence Collaboration Platform - 
+AIdea Artificial Intelligence Collaboration Platform
