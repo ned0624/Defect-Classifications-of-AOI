@@ -29,7 +29,7 @@ class CustomImageDataset(torch.utils.data.Dataset):
 transform = transforms.Compose(
     [transforms.ToPILImage(),
      transforms.ToTensor(),
-     transforms.Normalize((0.5), (0.5))])
+     transforms.Normalize([0.5], [0.5])])
 
 batch_size = 16
 
@@ -146,4 +146,5 @@ results_df = pd.DataFrame({
 })
 
 # 將結果儲存為 CSV 檔
+
 results_df.to_csv('cnn.csv', index=False)
