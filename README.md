@@ -104,7 +104,6 @@ This will:
 | Metric | Value |
 |--------|-------|
 | **Test Accuracy** | **96.28%** |
-| Test Images | 10,142 |
 | Submission Date | 2024-10-09 |
 
 Evaluated on AIdea's official test set using accuracy as the scoring metric.
