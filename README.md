@@ -66,7 +66,7 @@ AOI-Defect-Classification/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/ned0624/AOI-Defect-Classification.git
+git clone https://github.com/your-username/AOI-Defect-Classification.git
 cd AOI-Defect-Classification
 ```
 
@@ -98,6 +98,16 @@ This will:
 2. Save model weights to `cifar_net.pth`
 3. Run inference on the test set
 4. Output predictions to `cnn.csv`
+
+## 📊 Results
+
+| Metric | Value |
+|--------|-------|
+| **Test Accuracy** | **96.28%** |
+| Test Images | 10,142 |
+| Submission Date | 2024-10-09 |
+
+Evaluated on AIdea's official test set using accuracy as the scoring metric.
 
 ## 🛠️ Tech Stack
 
